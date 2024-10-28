@@ -1,0 +1,84 @@
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.exe
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.dll.config
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.deps.json
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.runtimeconfig.json
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.dll
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.pdb
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.AddEmployee.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.AddProduct.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.AddSaleItem.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.CreateSale.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.Employees.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.Inventory.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.Login.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.Properties.Resources.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.Sales.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.UpdatePrice.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.UpdateQuantity.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.csproj.GenerateResource.cache
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.GeneratedMSBuildEditorConfig.editorconfig
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.csproj.CoreCompileInputs.cache
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.dll
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\refint\SalesAndInventoryProgram.dll
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.pdb
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.genruntimeconfig.cache
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net6.0-windows\ref\SalesAndInventoryProgram.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.exe
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.dll.config
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.deps.json
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.runtimeconfig.json
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\SalesAndInventoryProgram.pdb
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Google.Protobuf.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\MySql.Data.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\MySql.EntityFrameworkCore.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\System.Text.Json.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.csproj.AssemblyReference.cache
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.AddEmployee.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.AddProduct.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.AddSaleItem.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.CreateSale.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.Employees.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.Inventory.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.Login.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.Properties.Resources.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.Sales.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.UpdatePrice.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.UpdateQuantity.resources
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.csproj.GenerateResource.cache
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.csproj.CoreCompileInputs.cache
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAnd.1C09E77F.Up2Date
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\refint\SalesAndInventoryProgram.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.pdb
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\SalesAndInventoryProgram.genruntimeconfig.cache
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\obj\Debug\net6.0-windows\ref\SalesAndInventoryProgram.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Humanizer.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+F:\Programming Projects\SalesAndInventoryProgram (wam1 act)\SalesAndInventoryProgram\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll

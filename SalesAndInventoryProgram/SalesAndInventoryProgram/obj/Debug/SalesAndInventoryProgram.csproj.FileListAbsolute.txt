@@ -1,0 +1,38 @@
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\SalesAndInventoryProgram.exe.config
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\SalesAndInventoryProgram.exe
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\SalesAndInventoryProgram.pdb
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.Properties.Resources.resources
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.exe
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.pdb
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.Inventory.resources
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.UpdatePrice.resources
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.UpdateQuantity.resources
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.AddProduct.resources
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.Sales.resources
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.CreateSale.resources
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.AddSaleItem.resources
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.AddEmployee.resources
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.Employees.resources
+C:\Users\ASUS\source\repos\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.Login.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\SalesAndInventoryProgram.exe.config
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\SalesAndInventoryProgram.exe
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\SalesAndInventoryProgram.pdb
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.csproj.AssemblyReference.cache
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.AddEmployee.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.AddProduct.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.AddSaleItem.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.CreateSale.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.Employees.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.Login.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.Inventory.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.Properties.Resources.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.Sales.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.UpdatePrice.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.UpdateQuantity.resources
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.csproj.GenerateResource.cache
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.csproj.CoreCompileInputs.cache
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.exe
+D:\School Stuff\COLLEGE\WAM1 - Developing Net Solutions\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\SalesAndInventoryProgram.pdb
