@@ -45,6 +45,9 @@ namespace SalesAndInventoryProgram
                 if (HasEmpty())
                     throw new Exception("Empty Field Detected");
 
+                if (AppHelper.db.Users.Select(u => u).Where(w => w.Username == tbUsername.Text).SingleOrDefault() != null)
+                    throw new Exception("Username already registered");
+
                 var employee = new User()
                 {
                     FirstName = tbFirstname.Text,
@@ -65,6 +68,7 @@ namespace SalesAndInventoryProgram
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 MessageBox.Show(ex.Message);
             }
             

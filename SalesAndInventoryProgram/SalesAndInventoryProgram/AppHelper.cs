@@ -11,6 +11,10 @@ internal static class AppHelper
 
     private static Regex EmptyRegex = new(@"^\s*$");
 
+    public static string ActiveStatus = "Active";
+
+    public static string DisableStatus = "Disabled";
+
     public static bool IsEmpty(string value)
     {
         return EmptyRegex.IsMatch(value);

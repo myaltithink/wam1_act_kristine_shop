@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -21,6 +23,8 @@ namespace SalesAndInventoryProgram.Data.Models
         public string Username { get; set; }
 
         public string Password { get; set; }
+
+        public string Status { get; set; } = "Active";
 
     }
 }

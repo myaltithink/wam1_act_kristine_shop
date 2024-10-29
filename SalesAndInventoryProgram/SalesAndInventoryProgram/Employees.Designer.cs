@@ -42,14 +42,15 @@ namespace SalesAndInventoryProgram
             tbsearch = new System.Windows.Forms.TextBox();
             panel3 = new System.Windows.Forms.Panel();
             employeeList = new System.Windows.Forms.DataGridView();
-            btnAddEmployee = new System.Windows.Forms.Button();
-            btnResetPass = new System.Windows.Forms.Button();
-            btnDisableAcc = new System.Windows.Forms.Button();
-            btnEnableAcc = new System.Windows.Forms.Button();
             EmployeeID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             FirstName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             LastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             Username = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            btnAddEmployee = new System.Windows.Forms.Button();
+            btnResetPass = new System.Windows.Forms.Button();
+            btnDisableAcc = new System.Windows.Forms.Button();
+            btnEnableAcc = new System.Windows.Forms.Button();
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
@@ -207,14 +208,55 @@ namespace SalesAndInventoryProgram
             // 
             employeeList.BackgroundColor = System.Drawing.Color.White;
             employeeList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            employeeList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { EmployeeID, FirstName, LastName, Username });
+            employeeList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { EmployeeID, FirstName, LastName, Username, Status });
             employeeList.Dock = System.Windows.Forms.DockStyle.Fill;
             employeeList.Location = new System.Drawing.Point(0, 0);
+            employeeList.MultiSelect = false;
             employeeList.Name = "employeeList";
+            employeeList.ReadOnly = true;
             employeeList.RowHeadersWidth = 51;
             employeeList.RowTemplate.Height = 24;
+            employeeList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             employeeList.Size = new System.Drawing.Size(805, 349);
             employeeList.TabIndex = 13;
+            // 
+            // EmployeeID
+            // 
+            EmployeeID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            EmployeeID.HeaderText = "Employee ID";
+            EmployeeID.MinimumWidth = 6;
+            EmployeeID.Name = "EmployeeID";
+            EmployeeID.ReadOnly = true;
+            // 
+            // FirstName
+            // 
+            FirstName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            FirstName.HeaderText = "First Name";
+            FirstName.MinimumWidth = 6;
+            FirstName.Name = "FirstName";
+            FirstName.ReadOnly = true;
+            // 
+            // LastName
+            // 
+            LastName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            LastName.HeaderText = "Last Name";
+            LastName.MinimumWidth = 6;
+            LastName.Name = "LastName";
+            LastName.ReadOnly = true;
+            // 
+            // Username
+            // 
+            Username.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            Username.HeaderText = "Username";
+            Username.MinimumWidth = 6;
+            Username.Name = "Username";
+            Username.ReadOnly = true;
+            // 
+            // Status
+            // 
+            Status.HeaderText = "Status";
+            Status.Name = "Status";
+            Status.ReadOnly = true;
             // 
             // btnAddEmployee
             // 
@@ -242,6 +284,7 @@ namespace SalesAndInventoryProgram
             btnResetPass.TabIndex = 18;
             btnResetPass.Text = "Reset Password";
             btnResetPass.UseVisualStyleBackColor = false;
+            btnResetPass.Click += btnResetPass_Click;
             // 
             // btnDisableAcc
             // 
@@ -255,6 +298,7 @@ namespace SalesAndInventoryProgram
             btnDisableAcc.TabIndex = 16;
             btnDisableAcc.Text = "Disable Account";
             btnDisableAcc.UseVisualStyleBackColor = false;
+            btnDisableAcc.Click += btnDisableAcc_Click;
             // 
             // btnEnableAcc
             // 
@@ -268,34 +312,7 @@ namespace SalesAndInventoryProgram
             btnEnableAcc.TabIndex = 17;
             btnEnableAcc.Text = "Enable Account";
             btnEnableAcc.UseVisualStyleBackColor = false;
-            // 
-            // EmployeeID
-            // 
-            EmployeeID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            EmployeeID.HeaderText = "Employee ID";
-            EmployeeID.MinimumWidth = 6;
-            EmployeeID.Name = "EmployeeID";
-            // 
-            // FirstName
-            // 
-            FirstName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            FirstName.HeaderText = "First Name";
-            FirstName.MinimumWidth = 6;
-            FirstName.Name = "FirstName";
-            // 
-            // LastName
-            // 
-            LastName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            LastName.HeaderText = "Last Name";
-            LastName.MinimumWidth = 6;
-            LastName.Name = "LastName";
-            // 
-            // Username
-            // 
-            Username.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            Username.HeaderText = "Username";
-            Username.MinimumWidth = 6;
-            Username.Name = "Username";
+            btnEnableAcc.Click += btnEnableAcc_Click;
             // 
             // Employees
             // 
@@ -342,5 +359,6 @@ namespace SalesAndInventoryProgram
         private System.Windows.Forms.DataGridViewTextBoxColumn FirstName;
         private System.Windows.Forms.DataGridViewTextBoxColumn LastName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Username;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Status;
     }
 }

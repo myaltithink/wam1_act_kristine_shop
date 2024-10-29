@@ -34,20 +34,26 @@ namespace SalesAndInventoryProgram
             var username = tbusername.Text;
             var password = tbpassword.Text;
 
-            var user = AppHelper.db.Users.Where(u => u.Username == username).Select(u => new { u.Username, u.Password }).SingleOrDefault();
-
+            var user = AppHelper.db.Users.Where(u => u.Username == username).Select(u => new { u.Username, u.Password, u.Status }).SingleOrDefault();
             if(user != null)
             {
-                if (user.Password == password)
+                if(user.Status == AppHelper.ActiveStatus)
                 {
-                    AppHelper.auth.username = username;
-                    Inventory inventory = new Inventory();
-                    inventory.Show();
-                    this.Hide();
+                    if (user.Password == password)
+                    {
+                        AppHelper.auth.username = username;
+                        Inventory inventory = new Inventory();
+                        inventory.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Login Failed: Wrong Password");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Login Failed: Wrong Password");
+                    MessageBox.Show("Login Failed: Your account has been disabled");
                 }
             }
             else

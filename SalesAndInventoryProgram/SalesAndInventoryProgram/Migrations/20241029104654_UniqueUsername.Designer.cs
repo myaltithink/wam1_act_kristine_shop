@@ -10,7 +10,7 @@ using SalesAndInventoryProgram.Data;
 namespace SalesAndInventoryProgram.Migrations
 {
     [DbContext(typeof(ShopContext))]
-    [Migration("20241028135431_UniqueUsername")]
+    [Migration("20241029104654_UniqueUsername")]
     partial class UniqueUsername
     {
         /// <inheritdoc />
@@ -82,9 +82,12 @@ namespace SalesAndInventoryProgram.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Username")
-                        .HasColumnType("longtext");
+                        .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Username")
+                        .IsUnique();
 
                     b.ToTable("Users");
 
