@@ -14,6 +14,9 @@ namespace SalesAndInventoryProgram
     public partial class Employees : Form
     {
 
+        private List<EmployeeDisplay> users = null;
+        private List<EmployeeDisplay> display = null;
+
         public Employees()
         {
             InitializeComponent();
@@ -23,9 +26,16 @@ namespace SalesAndInventoryProgram
         private void InitializeList()
         {
             var employees = AppHelper.db.Users
-                .Select(u => new { u.Id, u.FirstName, u.LastName, u.Username, u.Status })
+                .Select(u => new EmployeeDisplay() { Id = u.Id, FirstName = u.FirstName, LastName = u.LastName, Username = u.Username, Status = u.Status })
                 .ToList();
 
+            users = employees;
+            display = employees;
+            PopulateTable(employees);
+        }
+
+        private void PopulateTable(List<EmployeeDisplay> employees)
+        {
             foreach (var employee in employees)
             {
                 if (employee.Username == "kristine") continue;
@@ -132,5 +142,14 @@ namespace SalesAndInventoryProgram
                 MessageBox.Show("Reset Failed: " + ex.Message);
             }
         }
+    }
+
+    public class EmployeeDisplay
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Username { get; set; }
+        public string Status { get; set; }
     }
 }

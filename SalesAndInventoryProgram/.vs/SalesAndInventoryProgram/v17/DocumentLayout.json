@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|solutionrelative:salesandinventoryprogram\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\salesandinventoryprogram\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|solutionrelative:salesandinventoryprogram\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|f:\\programming projects\\wam1_act_kristine_shop\\salesandinventoryprogram\\salesandinventoryprogram\\data\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|solutionrelative:salesandinventoryprogram\\data\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|f:\\programming projects\\wam1_act_kristine_shop\\salesandinventoryprogram\\salesandinventoryprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|solutionrelative:salesandinventoryprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|f:\\programming projects\\wam1_act_kristine_shop\\salesandinventoryprogram\\salesandinventoryprogram\\apphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|solutionrelative:salesandinventoryprogram\\apphelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\salesandinventoryprogram\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|solutionrelative:salesandinventoryprogram\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|f:\\programming projects\\wam1_act_kristine_shop\\salesandinventoryprogram\\salesandinventoryprogram\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\salesandinventoryprogram\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|solutionrelative:salesandinventoryprogram\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|f:\\programming projects\\wam1_act_kristine_shop\\salesandinventoryprogram\\salesandinventoryprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|solutionrelative:salesandinventoryprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7439599D-A53D-4777-B648-84F070D24104}|SalesAndInventoryProgram\\SalesAndInventoryProgram.csproj|F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\salesandinventoryprogram\\updateprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -134,11 +138,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ShopContext.cs",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Data\\ShopContext.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Data\\ShopContext.cs",
+              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Data\\ShopContext.cs",
+              "RelativeToolTip": "SalesAndInventoryProgram\\Data\\ShopContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T15:43:47.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Login.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Login.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Login.cs",
@@ -151,17 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Sales.cs [Design]",
-              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Sales.cs",
-              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Sales.cs",
-              "ToolTip": "C:\\Users\\ITB303\\Desktop\\Taruc\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Sales.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:47:03.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Product.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Data\\Models\\Product.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Data\\Models\\Product.cs",
@@ -169,48 +180,11 @@
               "RelativeToolTip": "SalesAndInventoryProgram\\Data\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T04:47:59.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T04:47:59.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Login.cs",
-              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Login.cs",
-              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Login.cs [Design]",
-              "RelativeToolTip": "SalesAndInventoryProgram\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:46:46.405Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Inventory.cs [Design]",
-              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Inventory.cs",
-              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Inventory.cs",
-              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Inventory.cs [Design]",
-              "RelativeToolTip": "SalesAndInventoryProgram\\Inventory.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:46:33.421Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddEmployee.cs [Design]",
-              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddEmployee.cs",
-              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AddEmployee.cs",
-              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddEmployee.cs [Design]",
-              "RelativeToolTip": "SalesAndInventoryProgram\\AddEmployee.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:43:55.811Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AddEmployee.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddEmployee.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AddEmployee.cs",
@@ -218,20 +192,7 @@
               "RelativeToolTip": "SalesAndInventoryProgram\\AddEmployee.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAqwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:44:59.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Employees.cs [Design]",
-              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Employees.cs",
-              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Employees.cs",
-              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Employees.cs [Design]*",
-              "RelativeToolTip": "SalesAndInventoryProgram\\Employees.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:46:20.791Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-28T13:44:59.739Z"
             },
             {
               "$type": "Document",
@@ -241,14 +202,14 @@
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Employees.cs",
               "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Employees.cs*",
               "RelativeToolTip": "SalesAndInventoryProgram\\Employees.cs*",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAjwH0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T13:33:17.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppHelper.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AppHelper.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AppHelper.cs",
@@ -261,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Program.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Program.cs",
@@ -274,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Data\\Models\\User.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Data\\Models\\User.cs",
@@ -282,81 +243,23 @@
               "RelativeToolTip": "SalesAndInventoryProgram\\Data\\Models\\User.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAiwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:51:31.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdatePrice.cs [Design]",
-              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\UpdatePrice.cs",
-              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\UpdatePrice.cs",
-              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\UpdatePrice.cs [Design]",
-              "RelativeToolTip": "SalesAndInventoryProgram\\UpdatePrice.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:47:17.706Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-28T13:51:31.404Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "UpdateQuantity.cs [Design]",
-              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\UpdateQuantity.cs",
-              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\UpdateQuantity.cs",
-              "ToolTip": "C:\\Users\\ITB303\\Desktop\\Taruc\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\UpdateQuantity.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:47:29.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Employees.Designer.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Employees.Designer.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Employees.Designer.cs",
-              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Employees.Designer.cs*",
-              "RelativeToolTip": "SalesAndInventoryProgram\\Employees.Designer.cs*",
+              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Employees.Designer.cs",
+              "RelativeToolTip": "SalesAndInventoryProgram\\Employees.Designer.cs",
               "ViewState": "AgIAAMcAAAAAAAAAAAAowNYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T10:24:20.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T10:24:20.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CreateSale.cs [Design]",
-              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\CreateSale.cs",
-              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\CreateSale.cs",
-              "ToolTip": "C:\\Users\\ITB303\\Desktop\\Taruc\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\CreateSale.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:46:04.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AddSaleItem.cs [Design]",
-              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddSaleItem.cs",
-              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AddSaleItem.cs",
-              "ToolTip": "C:\\Users\\ITB303\\Desktop\\Taruc\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddSaleItem.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:45:51.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AddProduct.cs [Design]",
-              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddProduct.cs",
-              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AddProduct.cs",
-              "ToolTip": "C:\\Users\\ITB303\\Desktop\\Taruc\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddProduct.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:45:09.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Sale.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Data\\Models\\Sale.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Data\\Models\\Sale.cs",
@@ -368,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AuthContext.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Auth\\AuthContext.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Auth\\AuthContext.cs",
@@ -380,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Login.Designer.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Login.Designer.cs",
@@ -388,12 +291,11 @@
               "RelativeToolTip": "SalesAndInventoryProgram\\Login.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T13:55:54.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T13:55:54.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UpdateQuantity.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\UpdateQuantity.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\UpdateQuantity.cs",
@@ -405,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Resources.Designer.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Properties\\Resources.Designer.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Properties\\Resources.Designer.cs",
@@ -417,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AddEmployee.Designer.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddEmployee.Designer.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AddEmployee.Designer.cs",
@@ -425,12 +327,11 @@
               "RelativeToolTip": "SalesAndInventoryProgram\\AddEmployee.Designer.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAApwBcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T14:44:04.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T14:44:04.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "UpdatePrice.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\UpdatePrice.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\UpdatePrice.cs",
@@ -442,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CreateSale.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\CreateSale.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\CreateSale.cs",
@@ -454,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "AddSaleItem.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddSaleItem.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AddSaleItem.cs",
@@ -466,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Sales.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Sales.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Sales.cs",
@@ -478,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "AddProduct.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddProduct.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AddProduct.cs",
@@ -490,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Inventory.cs",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Inventory.cs",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Inventory.cs",
@@ -502,7 +403,113 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 15,
+              "Title": "Sales.cs [Design]",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Sales.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Sales.cs",
+              "ToolTip": "C:\\Users\\ITB303\\Desktop\\Taruc\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Sales.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:47:03.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Login.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Login.cs",
+              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Login.cs [Design]",
+              "RelativeToolTip": "SalesAndInventoryProgram\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:46:46.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Inventory.cs [Design]",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Inventory.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Inventory.cs",
+              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Inventory.cs [Design]",
+              "RelativeToolTip": "SalesAndInventoryProgram\\Inventory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:46:33.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddEmployee.cs [Design]",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddEmployee.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AddEmployee.cs",
+              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddEmployee.cs [Design]",
+              "RelativeToolTip": "SalesAndInventoryProgram\\AddEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:43:55.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employees.cs [Design]",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Employees.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Employees.cs",
+              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Employees.cs [Design]*",
+              "RelativeToolTip": "SalesAndInventoryProgram\\Employees.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:46:20.791Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdatePrice.cs [Design]",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\UpdatePrice.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\UpdatePrice.cs",
+              "ToolTip": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\UpdatePrice.cs [Design]",
+              "RelativeToolTip": "SalesAndInventoryProgram\\UpdatePrice.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:47:17.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateQuantity.cs [Design]",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\UpdateQuantity.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\UpdateQuantity.cs",
+              "ToolTip": "C:\\Users\\ITB303\\Desktop\\Taruc\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\UpdateQuantity.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:47:29.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateSale.cs [Design]",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\CreateSale.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\CreateSale.cs",
+              "ToolTip": "C:\\Users\\ITB303\\Desktop\\Taruc\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\CreateSale.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:46:04.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddSaleItem.cs [Design]",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddSaleItem.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AddSaleItem.cs",
+              "ToolTip": "C:\\Users\\ITB303\\Desktop\\Taruc\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddSaleItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:45:51.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddProduct.cs [Design]",
+              "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddProduct.cs",
+              "RelativeDocumentMoniker": "SalesAndInventoryProgram\\AddProduct.cs",
+              "ToolTip": "C:\\Users\\ITB303\\Desktop\\Taruc\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\AddProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:45:09.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Settings.settings",
               "DocumentMoniker": "F:\\Programming Projects\\wam1_act_kristine_shop\\SalesAndInventoryProgram\\SalesAndInventoryProgram\\Properties\\Settings.settings",
               "RelativeDocumentMoniker": "SalesAndInventoryProgram\\Properties\\Settings.settings",
