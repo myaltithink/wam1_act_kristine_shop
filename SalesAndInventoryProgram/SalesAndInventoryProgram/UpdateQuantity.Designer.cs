@@ -218,7 +218,9 @@ namespace SalesAndInventoryProgram
             BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             ClientSize = new System.Drawing.Size(683, 678);
             Controls.Add(panel1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Name = "UpdateQuantity";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "UpdateQuantity";
             FormClosed += UpdateQuantity_FormClosed;
             panel1.ResumeLayout(false);

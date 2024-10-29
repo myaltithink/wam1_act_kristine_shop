@@ -30,11 +30,6 @@ namespace SalesAndInventoryProgram
         private void InitializeComponent()
         {
             pictureBox1 = new System.Windows.Forms.PictureBox();
-            Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ItemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ProductID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             dataGridView1 = new System.Windows.Forms.DataGridView();
             tbsearch = new System.Windows.Forms.TextBox();
             groupBox1 = new System.Windows.Forms.GroupBox();
@@ -52,6 +47,11 @@ namespace SalesAndInventoryProgram
             panel6 = new System.Windows.Forms.Panel();
             groupBox2 = new System.Windows.Forms.GroupBox();
             TotalSales = new System.Windows.Forms.Label();
+            ProductID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ItemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox1.SuspendLayout();
@@ -72,41 +72,6 @@ namespace SalesAndInventoryProgram
             pictureBox1.Size = new System.Drawing.Size(179, 192);
             pictureBox1.TabIndex = 15;
             pictureBox1.TabStop = false;
-            // 
-            // Quantity
-            // 
-            Quantity.HeaderText = "Quantity";
-            Quantity.MinimumWidth = 6;
-            Quantity.Name = "Quantity";
-            Quantity.Width = 125;
-            // 
-            // Price
-            // 
-            Price.HeaderText = "Price";
-            Price.MinimumWidth = 6;
-            Price.Name = "Price";
-            Price.Width = 125;
-            // 
-            // Category
-            // 
-            Category.HeaderText = "Category";
-            Category.MinimumWidth = 6;
-            Category.Name = "Category";
-            Category.Width = 125;
-            // 
-            // ItemName
-            // 
-            ItemName.HeaderText = "Item Name";
-            ItemName.MinimumWidth = 6;
-            ItemName.Name = "ItemName";
-            ItemName.Width = 125;
-            // 
-            // ProductID
-            // 
-            ProductID.HeaderText = "Product ID";
-            ProductID.MinimumWidth = 6;
-            ProductID.Name = "ProductID";
-            ProductID.Width = 125;
             // 
             // dataGridView1
             // 
@@ -320,13 +285,50 @@ namespace SalesAndInventoryProgram
             TotalSales.Text = "0.00";
             TotalSales.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // ProductID
+            // 
+            ProductID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            ProductID.HeaderText = "Product ID";
+            ProductID.MinimumWidth = 6;
+            ProductID.Name = "ProductID";
+            // 
+            // ItemName
+            // 
+            ItemName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            ItemName.HeaderText = "Item Name";
+            ItemName.MinimumWidth = 6;
+            ItemName.Name = "ItemName";
+            // 
+            // Category
+            // 
+            Category.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            Category.HeaderText = "Category";
+            Category.MinimumWidth = 6;
+            Category.Name = "Category";
+            // 
+            // Price
+            // 
+            Price.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            Price.HeaderText = "Price";
+            Price.MinimumWidth = 6;
+            Price.Name = "Price";
+            // 
+            // Quantity
+            // 
+            Quantity.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            Quantity.HeaderText = "Quantity";
+            Quantity.MinimumWidth = 6;
+            Quantity.Name = "Quantity";
+            // 
             // Sales
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(1172, 657);
             Controls.Add(panel1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Name = "Sales";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "Sales";
             FormClosed += Sales_FormClosed;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -346,11 +348,6 @@ namespace SalesAndInventoryProgram
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Category;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ItemName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ProductID;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox tbsearch;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -368,5 +365,10 @@ namespace SalesAndInventoryProgram
         private System.Windows.Forms.Label TotalSales;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ProductID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ItemName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Category;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
     }
 }

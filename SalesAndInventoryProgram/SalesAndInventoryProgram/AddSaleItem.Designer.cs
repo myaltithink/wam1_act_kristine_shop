@@ -179,7 +179,9 @@ namespace SalesAndInventoryProgram
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(683, 592);
             Controls.Add(panel1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Name = "AddSaleItem";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "AddSaleItem";
             FormClosed += AddSaleItem_FormClosed;
             panel1.ResumeLayout(false);

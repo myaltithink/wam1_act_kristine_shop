@@ -205,7 +205,9 @@ namespace SalesAndInventoryProgram
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(683, 678);
             Controls.Add(panel1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Name = "UpdatePrice";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "UpdatePrice";
             FormClosed += UpdatePrice_FormClosed;
             panel1.ResumeLayout(false);

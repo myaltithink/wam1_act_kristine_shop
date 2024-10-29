@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SalesAndInventoryProgram.Data.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace SalesAndInventoryProgram
         public Employees()
         {
             InitializeComponent();
+
+        }
+        
+        private void InitializeList()
+        {
+            var employees = AppHelper.db.Users.ToList<User>();
+            foreach(var user in employees)
+            {
+
+            }
         }
 
         private void btnAddEmployee_Click(object sender, EventArgs e)

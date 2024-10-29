@@ -41,23 +41,22 @@ namespace SalesAndInventoryProgram
             groupBox1 = new System.Windows.Forms.GroupBox();
             tbsearch = new System.Windows.Forms.TextBox();
             panel3 = new System.Windows.Forms.Panel();
-            dataGridView1 = new System.Windows.Forms.DataGridView();
-            EmployeeID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            FirstName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            LastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Username = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            employeeList = new System.Windows.Forms.DataGridView();
             btnAddEmployee = new System.Windows.Forms.Button();
             btnResetPass = new System.Windows.Forms.Button();
             btnDisableAcc = new System.Windows.Forms.Button();
             btnEnableAcc = new System.Windows.Forms.Button();
+            EmployeeID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            FirstName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            LastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Username = new System.Windows.Forms.DataGridViewTextBoxColumn();
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             panel5.SuspendLayout();
             groupBox1.SuspendLayout();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)employeeList).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -198,59 +197,24 @@ namespace SalesAndInventoryProgram
             // panel3
             // 
             panel3.BackColor = System.Drawing.Color.White;
-            panel3.Controls.Add(dataGridView1);
+            panel3.Controls.Add(employeeList);
             panel3.Location = new System.Drawing.Point(41, 153);
             panel3.Name = "panel3";
             panel3.Size = new System.Drawing.Size(805, 349);
             panel3.TabIndex = 14;
             // 
-            // dataGridView1
+            // employeeList
             // 
-            dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { EmployeeID, FirstName, LastName, Username, Password });
-            dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            dataGridView1.Location = new System.Drawing.Point(0, 0);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 24;
-            dataGridView1.Size = new System.Drawing.Size(805, 349);
-            dataGridView1.TabIndex = 13;
-            // 
-            // EmployeeID
-            // 
-            EmployeeID.HeaderText = "Employee ID";
-            EmployeeID.MinimumWidth = 6;
-            EmployeeID.Name = "EmployeeID";
-            EmployeeID.Width = 125;
-            // 
-            // FirstName
-            // 
-            FirstName.HeaderText = "First Name";
-            FirstName.MinimumWidth = 6;
-            FirstName.Name = "FirstName";
-            FirstName.Width = 125;
-            // 
-            // LastName
-            // 
-            LastName.HeaderText = "Last Name";
-            LastName.MinimumWidth = 6;
-            LastName.Name = "LastName";
-            LastName.Width = 125;
-            // 
-            // Username
-            // 
-            Username.HeaderText = "Username";
-            Username.MinimumWidth = 6;
-            Username.Name = "Username";
-            Username.Width = 125;
-            // 
-            // Password
-            // 
-            Password.HeaderText = "Password";
-            Password.MinimumWidth = 6;
-            Password.Name = "Password";
-            Password.Width = 125;
+            employeeList.BackgroundColor = System.Drawing.Color.White;
+            employeeList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            employeeList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { EmployeeID, FirstName, LastName, Username });
+            employeeList.Dock = System.Windows.Forms.DockStyle.Fill;
+            employeeList.Location = new System.Drawing.Point(0, 0);
+            employeeList.Name = "employeeList";
+            employeeList.RowHeadersWidth = 51;
+            employeeList.RowTemplate.Height = 24;
+            employeeList.Size = new System.Drawing.Size(805, 349);
+            employeeList.TabIndex = 13;
             // 
             // btnAddEmployee
             // 
@@ -305,13 +269,43 @@ namespace SalesAndInventoryProgram
             btnEnableAcc.Text = "Enable Account";
             btnEnableAcc.UseVisualStyleBackColor = false;
             // 
+            // EmployeeID
+            // 
+            EmployeeID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            EmployeeID.HeaderText = "Employee ID";
+            EmployeeID.MinimumWidth = 6;
+            EmployeeID.Name = "EmployeeID";
+            // 
+            // FirstName
+            // 
+            FirstName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            FirstName.HeaderText = "First Name";
+            FirstName.MinimumWidth = 6;
+            FirstName.Name = "FirstName";
+            // 
+            // LastName
+            // 
+            LastName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            LastName.HeaderText = "Last Name";
+            LastName.MinimumWidth = 6;
+            LastName.Name = "LastName";
+            // 
+            // Username
+            // 
+            Username.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            Username.HeaderText = "Username";
+            Username.MinimumWidth = 6;
+            Username.Name = "Username";
+            // 
             // Employees
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(1172, 657);
             Controls.Add(panel1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Name = "Employees";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "Employees";
             FormClosed += Employees_FormClosed;
             panel4.ResumeLayout(false);
@@ -321,14 +315,14 @@ namespace SalesAndInventoryProgram
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)employeeList).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView employeeList;
         private System.Windows.Forms.TextBox tbsearch;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Panel panel3;
@@ -348,6 +342,5 @@ namespace SalesAndInventoryProgram
         private System.Windows.Forms.DataGridViewTextBoxColumn FirstName;
         private System.Windows.Forms.DataGridViewTextBoxColumn LastName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Username;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Password;
     }
 }

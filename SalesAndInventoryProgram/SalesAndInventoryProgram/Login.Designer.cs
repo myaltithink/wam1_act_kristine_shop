@@ -53,7 +53,7 @@ namespace SalesAndInventoryProgram
             panel1.Controls.Add(pictureBox1);
             panel1.Location = new System.Drawing.Point(-17, -16);
             panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(542, 831);
+            panel1.Size = new System.Drawing.Size(562, 831);
             panel1.TabIndex = 4;
             panel1.Paint += panel1_Paint;
             // 
@@ -146,10 +146,12 @@ namespace SalesAndInventoryProgram
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.White;
-            ClientSize = new System.Drawing.Size(524, 776);
+            ClientSize = new System.Drawing.Size(540, 815);
             Controls.Add(panel1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             MinimumSize = new System.Drawing.Size(540, 815);
             Name = "Login";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "Login";
             FormClosed += Login_FormClosed;
             panel1.ResumeLayout(false);

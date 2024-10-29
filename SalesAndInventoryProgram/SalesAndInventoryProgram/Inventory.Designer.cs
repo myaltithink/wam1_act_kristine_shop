@@ -35,11 +35,6 @@ namespace SalesAndInventoryProgram
             tbsearch = new System.Windows.Forms.TextBox();
             panel3 = new System.Windows.Forms.Panel();
             dataGridView1 = new System.Windows.Forms.DataGridView();
-            ProductID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ItemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             btnAddProduct = new System.Windows.Forms.Button();
             btnUpdatePrice = new System.Windows.Forms.Button();
             btnDeleteProd = new System.Windows.Forms.Button();
@@ -51,6 +46,11 @@ namespace SalesAndInventoryProgram
             btnSignOut = new System.Windows.Forms.Button();
             pictureBox1 = new System.Windows.Forms.PictureBox();
             panel2 = new System.Windows.Forms.Panel();
+            ProductID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ItemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             panel1.SuspendLayout();
             panel5.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -131,41 +131,6 @@ namespace SalesAndInventoryProgram
             dataGridView1.Size = new System.Drawing.Size(805, 349);
             dataGridView1.TabIndex = 13;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
-            // 
-            // ProductID
-            // 
-            ProductID.HeaderText = "Product ID";
-            ProductID.MinimumWidth = 6;
-            ProductID.Name = "ProductID";
-            ProductID.Width = 125;
-            // 
-            // ItemName
-            // 
-            ItemName.HeaderText = "Item Name";
-            ItemName.MinimumWidth = 6;
-            ItemName.Name = "ItemName";
-            ItemName.Width = 125;
-            // 
-            // Category
-            // 
-            Category.HeaderText = "Category";
-            Category.MinimumWidth = 6;
-            Category.Name = "Category";
-            Category.Width = 125;
-            // 
-            // Price
-            // 
-            Price.HeaderText = "Price";
-            Price.MinimumWidth = 6;
-            Price.Name = "Price";
-            Price.Width = 125;
-            // 
-            // Quantity
-            // 
-            Quantity.HeaderText = "Quantity";
-            Quantity.MinimumWidth = 6;
-            Quantity.Name = "Quantity";
-            Quantity.Width = 125;
             // 
             // btnAddProduct
             // 
@@ -309,6 +274,41 @@ namespace SalesAndInventoryProgram
             panel2.Size = new System.Drawing.Size(9, 645);
             panel2.TabIndex = 11;
             // 
+            // ProductID
+            // 
+            ProductID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            ProductID.HeaderText = "Product ID";
+            ProductID.MinimumWidth = 6;
+            ProductID.Name = "ProductID";
+            // 
+            // ItemName
+            // 
+            ItemName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            ItemName.HeaderText = "Item Name";
+            ItemName.MinimumWidth = 6;
+            ItemName.Name = "ItemName";
+            // 
+            // Category
+            // 
+            Category.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            Category.HeaderText = "Category";
+            Category.MinimumWidth = 6;
+            Category.Name = "Category";
+            // 
+            // Price
+            // 
+            Price.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            Price.HeaderText = "Price";
+            Price.MinimumWidth = 6;
+            Price.Name = "Price";
+            // 
+            // Quantity
+            // 
+            Quantity.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            Quantity.HeaderText = "Quantity";
+            Quantity.MinimumWidth = 6;
+            Quantity.Name = "Quantity";
+            // 
             // Inventory
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -316,7 +316,9 @@ namespace SalesAndInventoryProgram
             BackColor = System.Drawing.Color.White;
             ClientSize = new System.Drawing.Size(1172, 657);
             Controls.Add(panel1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Name = "Inventory";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "Inventory";
             FormClosed += Inventory_FormClosed;
             panel1.ResumeLayout(false);
@@ -345,14 +347,14 @@ namespace SalesAndInventoryProgram
         private System.Windows.Forms.TextBox tbsearch;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnAddProduct;
+        private System.Windows.Forms.Button btnUpdatePrice;
+        private System.Windows.Forms.Button btnDeleteProd;
+        private System.Windows.Forms.Button btnUpdateQuantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn ProductID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ItemName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Category;
         private System.Windows.Forms.DataGridViewTextBoxColumn Price;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
-        private System.Windows.Forms.Button btnAddProduct;
-        private System.Windows.Forms.Button btnUpdatePrice;
-        private System.Windows.Forms.Button btnDeleteProd;
-        private System.Windows.Forms.Button btnUpdateQuantity;
     }
 }
