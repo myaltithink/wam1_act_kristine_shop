@@ -54,5 +54,12 @@ namespace SalesAndInventoryProgram
         {
             Application.Exit();
         }
+
+        private void btnUpdatePassword_Click(object sender, EventArgs e)
+        {
+            UpdatePassword updatePassword = new UpdatePassword();
+            updatePassword.Show();
+
+        }
     }
 }

@@ -1,7 +1,6 @@
-﻿
-namespace SalesAndInventoryProgram
+﻿namespace SalesAndInventoryProgram
 {
-    partial class AddProduct
+    partial class UpdatePassword
     {
         /// <summary>
         /// Required designer variable.
@@ -29,49 +28,35 @@ namespace SalesAndInventoryProgram
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new System.Windows.Forms.Panel();
             panel5 = new System.Windows.Forms.Panel();
+            groupBox3 = new System.Windows.Forms.GroupBox();
+            tbconfirmpass = new System.Windows.Forms.TextBox();
             btnSave = new System.Windows.Forms.Button();
             btnCancel = new System.Windows.Forms.Button();
-            groupBox4 = new System.Windows.Forms.GroupBox();
-            tbQuantity = new System.Windows.Forms.TextBox();
-            groupBox3 = new System.Windows.Forms.GroupBox();
-            tbPrice = new System.Windows.Forms.TextBox();
             groupBox2 = new System.Windows.Forms.GroupBox();
-            dropdownCategory = new System.Windows.Forms.DomainUpDown();
+            tbnewpass = new System.Windows.Forms.TextBox();
             panel2 = new System.Windows.Forms.Panel();
             label3 = new System.Windows.Forms.Label();
             groupBox1 = new System.Windows.Forms.GroupBox();
-            tbItemName = new System.Windows.Forms.TextBox();
+            tbcurrentpass = new System.Windows.Forms.TextBox();
             pictureBox1 = new System.Windows.Forms.PictureBox();
-            panel1.SuspendLayout();
+            panel1 = new System.Windows.Forms.Panel();
             panel5.SuspendLayout();
-            groupBox4.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // panel1
-            // 
-            panel1.BackColor = System.Drawing.Color.White;
-            panel1.Controls.Add(panel5);
-            panel1.Location = new System.Drawing.Point(-7, -65);
-            panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(1038, 1081);
-            panel1.TabIndex = 8;
             // 
             // panel5
             // 
             panel5.BackColor = System.Drawing.Color.Transparent;
             panel5.BackgroundImage = Properties.Resources.bg1;
             panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            panel5.Controls.Add(groupBox3);
             panel5.Controls.Add(btnSave);
             panel5.Controls.Add(btnCancel);
-            panel5.Controls.Add(groupBox4);
-            panel5.Controls.Add(groupBox3);
             panel5.Controls.Add(groupBox2);
             panel5.Controls.Add(panel2);
             panel5.Controls.Add(label3);
@@ -82,6 +67,31 @@ namespace SalesAndInventoryProgram
             panel5.Name = "panel5";
             panel5.Size = new System.Drawing.Size(1017, 909);
             panel5.TabIndex = 21;
+            // 
+            // groupBox3
+            // 
+            groupBox3.Controls.Add(tbconfirmpass);
+            groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            groupBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            groupBox3.ForeColor = System.Drawing.Color.White;
+            groupBox3.Location = new System.Drawing.Point(72, 567);
+            groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            groupBox3.Size = new System.Drawing.Size(645, 111);
+            groupBox3.TabIndex = 30;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Confirm Password";
+            // 
+            // tbconfirmpass
+            // 
+            tbconfirmpass.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            tbconfirmpass.Location = new System.Drawing.Point(24, 47);
+            tbconfirmpass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            tbconfirmpass.Name = "tbconfirmpass";
+            tbconfirmpass.Size = new System.Drawing.Size(597, 36);
+            tbconfirmpass.TabIndex = 2;
+            tbconfirmpass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnSave
             // 
@@ -110,61 +120,11 @@ namespace SalesAndInventoryProgram
             btnCancel.TabIndex = 31;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = false;
-            btnCancel.Click += btnCancel_Click_1;
-            // 
-            // groupBox4
-            // 
-            groupBox4.Controls.Add(tbQuantity);
-            groupBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            groupBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            groupBox4.ForeColor = System.Drawing.Color.White;
-            groupBox4.Location = new System.Drawing.Point(413, 567);
-            groupBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            groupBox4.Size = new System.Drawing.Size(304, 111);
-            groupBox4.TabIndex = 30;
-            groupBox4.TabStop = false;
-            groupBox4.Text = "Quantity";
-            // 
-            // tbQuantity
-            // 
-            tbQuantity.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            tbQuantity.Location = new System.Drawing.Point(27, 39);
-            tbQuantity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            tbQuantity.Name = "tbQuantity";
-            tbQuantity.Size = new System.Drawing.Size(250, 36);
-            tbQuantity.TabIndex = 30;
-            tbQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // groupBox3
-            // 
-            groupBox3.Controls.Add(tbPrice);
-            groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            groupBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            groupBox3.ForeColor = System.Drawing.Color.White;
-            groupBox3.Location = new System.Drawing.Point(73, 567);
-            groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            groupBox3.Size = new System.Drawing.Size(304, 111);
-            groupBox3.TabIndex = 29;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Price";
-            // 
-            // tbPrice
-            // 
-            tbPrice.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            tbPrice.Location = new System.Drawing.Point(27, 39);
-            tbPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            tbPrice.Name = "tbPrice";
-            tbPrice.Size = new System.Drawing.Size(250, 36);
-            tbPrice.TabIndex = 30;
-            tbPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            btnCancel.Click += btnCancel_Click;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(dropdownCategory);
+            groupBox2.Controls.Add(tbnewpass);
             groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             groupBox2.ForeColor = System.Drawing.Color.White;
@@ -175,17 +135,17 @@ namespace SalesAndInventoryProgram
             groupBox2.Size = new System.Drawing.Size(645, 111);
             groupBox2.TabIndex = 25;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Category";
+            groupBox2.Text = "New Password";
             // 
-            // dropdownCategory
+            // tbnewpass
             // 
-            dropdownCategory.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            dropdownCategory.Location = new System.Drawing.Point(27, 43);
-            dropdownCategory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            dropdownCategory.Name = "dropdownCategory";
-            dropdownCategory.Size = new System.Drawing.Size(597, 36);
-            dropdownCategory.TabIndex = 0;
-            dropdownCategory.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            tbnewpass.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            tbnewpass.Location = new System.Drawing.Point(24, 47);
+            tbnewpass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            tbnewpass.Name = "tbnewpass";
+            tbnewpass.Size = new System.Drawing.Size(597, 36);
+            tbnewpass.TabIndex = 1;
+            tbnewpass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel2
             // 
@@ -203,14 +163,15 @@ namespace SalesAndInventoryProgram
             label3.ForeColor = System.Drawing.Color.White;
             label3.Location = new System.Drawing.Point(278, 132);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(224, 37);
+            label3.Size = new System.Drawing.Size(294, 37);
             label3.TabIndex = 22;
-            label3.Text = "ADD PRODUCT";
+            label3.Text = "UPDATE PASSWORD";
+            label3.Click += label3_Click;
             // 
             // groupBox1
             // 
             groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            groupBox1.Controls.Add(tbItemName);
+            groupBox1.Controls.Add(tbcurrentpass);
             groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             groupBox1.ForeColor = System.Drawing.Color.White;
@@ -221,17 +182,17 @@ namespace SalesAndInventoryProgram
             groupBox1.Size = new System.Drawing.Size(645, 111);
             groupBox1.TabIndex = 12;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Item Name";
+            groupBox1.Text = "Current Password";
             // 
-            // tbItemName
+            // tbcurrentpass
             // 
-            tbItemName.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            tbItemName.Location = new System.Drawing.Point(27, 44);
-            tbItemName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            tbItemName.Name = "tbItemName";
-            tbItemName.Size = new System.Drawing.Size(597, 36);
-            tbItemName.TabIndex = 0;
-            tbItemName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            tbcurrentpass.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            tbcurrentpass.Location = new System.Drawing.Point(27, 44);
+            tbcurrentpass.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            tbcurrentpass.Name = "tbcurrentpass";
+            tbcurrentpass.Size = new System.Drawing.Size(597, 36);
+            tbcurrentpass.TabIndex = 0;
+            tbcurrentpass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox1
             // 
@@ -244,48 +205,57 @@ namespace SalesAndInventoryProgram
             pictureBox1.TabIndex = 15;
             pictureBox1.TabStop = false;
             // 
-            // AddProduct
+            // panel1
+            // 
+            panel1.BackColor = System.Drawing.Color.White;
+            panel1.Controls.Add(panel5);
+            panel1.Location = new System.Drawing.Point(-17, -76);
+            panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new System.Drawing.Size(1038, 1081);
+            panel1.TabIndex = 9;
+            // 
+            // UpdatePassword
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(781, 904);
+            ClientSize = new System.Drawing.Size(763, 857);
             Controls.Add(panel1);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            Name = "AddProduct";
+            Name = "UpdatePassword";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "AddProduct";
-            FormClosed += AddProduct_FormClosed;
-            panel1.ResumeLayout(false);
+            Text = "UpdatePassword";
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
-            groupBox4.ResumeLayout(false);
-            groupBox4.PerformLayout();
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
             groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.TextBox tbQuantity;
+        private System.Windows.Forms.TextBox tbPrice;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.DomainUpDown dropdownCategory;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox tbItemName;
+        private System.Windows.Forms.TextBox tbcurrentpass;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox tbPrice;
-        private System.Windows.Forms.DomainUpDown dropdownCategory;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox tbQuantity;
-        private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.TextBox tbconfirmpass;
+        private System.Windows.Forms.TextBox tbnewpass;
     }
 }

@@ -130,17 +130,23 @@ namespace SalesAndInventoryProgram
             {
                 var user = GetUser();
                 var dialogResult = MessageBox.Show($"Are you sure you want to reset the password for {user.Username}", "Notice!", MessageBoxButtons.YesNo);
-                if(dialogResult == DialogResult.Yes)
+                if (dialogResult == DialogResult.Yes)
                 {
                     user.Password = "wasdwasd";
                     AppHelper.db.SaveChanges();
                     MessageBox.Show("Password has been reset to the default password \"wasdwasd\"");
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Reset Failed: " + ex.Message);
             }
+        }
+
+        private void btnUpdatePassword_Click(object sender, EventArgs e)
+        {
+            UpdatePassword updatePassword = new UpdatePassword();
+            updatePassword.Show();
         }
     }
 
