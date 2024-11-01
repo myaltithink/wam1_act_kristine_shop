@@ -12,7 +12,7 @@ namespace SalesAndInventoryProgram.Data
     internal class ShopContext : DbContext
     {
 
-        private readonly string connectionString = "Server=localhost;User ID=root;Password=;Database=kristine_shop";
+        private readonly string connectionString = "Server=localhost;User ID=root;Password=wasdwasd;Database=kristine_shop";
         
         public DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }
@@ -38,7 +38,7 @@ namespace SalesAndInventoryProgram.Data
                         FirstName = "Kristine",
                         LastName = "Shop",
                         Username = "kristine",
-                        Password = "wasdwasd"
+                        Password = AppHelper.Encryption.EncryptPassword("wasdwasd")
                     }
                 );
 

@@ -34,7 +34,7 @@ namespace SalesAndInventoryProgram
             btnSave = new System.Windows.Forms.Button();
             btnCancel = new System.Windows.Forms.Button();
             groupBox3 = new System.Windows.Forms.GroupBox();
-            tbAddQuantity = new System.Windows.Forms.TextBox();
+            newQuantity = new System.Windows.Forms.NumericUpDown();
             groupBox2 = new System.Windows.Forms.GroupBox();
             lblcurrentQuantity = new System.Windows.Forms.TextBox();
             panel2 = new System.Windows.Forms.Panel();
@@ -45,6 +45,7 @@ namespace SalesAndInventoryProgram
             panel1.SuspendLayout();
             panel5.SuspendLayout();
             groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)newQuantity).BeginInit();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -109,7 +110,7 @@ namespace SalesAndInventoryProgram
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(tbAddQuantity);
+            groupBox3.Controls.Add(newQuantity);
             groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             groupBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             groupBox3.ForeColor = System.Drawing.Color.White;
@@ -121,15 +122,14 @@ namespace SalesAndInventoryProgram
             groupBox3.Text = "Add Quantity";
             groupBox3.Enter += groupBox3_Enter;
             // 
-            // tbAddQuantity
+            // newQuantity
             // 
-            tbAddQuantity.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            tbAddQuantity.Location = new System.Drawing.Point(24, 32);
-            tbAddQuantity.Name = "tbAddQuantity";
-            tbAddQuantity.Size = new System.Drawing.Size(369, 30);
-            tbAddQuantity.TabIndex = 0;
-            tbAddQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            tbAddQuantity.TextChanged += tbAddQuantity_TextChanged;
+            newQuantity.Location = new System.Drawing.Point(24, 32);
+            newQuantity.Maximum = new decimal(new int[] { 10000, 0, 0, 0 });
+            newQuantity.Minimum = new decimal(new int[] { 10000, 0, 0, int.MinValue });
+            newQuantity.Name = "newQuantity";
+            newQuantity.Size = new System.Drawing.Size(369, 27);
+            newQuantity.TabIndex = 0;
             // 
             // groupBox2
             // 
@@ -147,11 +147,13 @@ namespace SalesAndInventoryProgram
             // 
             // lblcurrentQuantity
             // 
+            lblcurrentQuantity.Enabled = false;
             lblcurrentQuantity.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             lblcurrentQuantity.Location = new System.Drawing.Point(24, 33);
             lblcurrentQuantity.Name = "lblcurrentQuantity";
+            lblcurrentQuantity.ReadOnly = true;
             lblcurrentQuantity.Size = new System.Drawing.Size(369, 30);
-            lblcurrentQuantity.TabIndex = 0;
+            lblcurrentQuantity.TabIndex = 2;
             lblcurrentQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             lblcurrentQuantity.TextChanged += lblcurrentQuantity_TextChanged;
             // 
@@ -192,11 +194,13 @@ namespace SalesAndInventoryProgram
             // 
             // lblprodName
             // 
+            lblprodName.Enabled = false;
             lblprodName.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             lblprodName.Location = new System.Drawing.Point(24, 33);
             lblprodName.Name = "lblprodName";
+            lblprodName.ReadOnly = true;
             lblprodName.Size = new System.Drawing.Size(369, 30);
-            lblprodName.TabIndex = 0;
+            lblprodName.TabIndex = 4;
             lblprodName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             lblprodName.TextChanged += lblprodName_TextChanged;
             // 
@@ -227,7 +231,7 @@ namespace SalesAndInventoryProgram
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)newQuantity).EndInit();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
@@ -242,7 +246,6 @@ namespace SalesAndInventoryProgram
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox tbAddQuantity;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox lblcurrentQuantity;
         private System.Windows.Forms.Panel panel2;
@@ -251,5 +254,6 @@ namespace SalesAndInventoryProgram
         private System.Windows.Forms.TextBox lblprodName;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.NumericUpDown newQuantity;
     }
 }

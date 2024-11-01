@@ -97,7 +97,7 @@ namespace SalesAndInventoryProgram.Migrations
                             Id = 1,
                             FirstName = "Kristine",
                             LastName = "Shop",
-                            Password = "wasdwasd",
+                            Password = "$2a$13$o3J2XzqwBE3MwOFp8EAXEOrS1iU4AwrSQl92Rnr5A6v5bUBoIDY72",
                             Status = "Active",
                             Username = "kristine"
                         });

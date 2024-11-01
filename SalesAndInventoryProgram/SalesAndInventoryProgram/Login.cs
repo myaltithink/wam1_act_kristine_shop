@@ -39,9 +39,10 @@ namespace SalesAndInventoryProgram
             {
                 if(user.Status == AppHelper.ActiveStatus)
                 {
-                    if (user.Password == password)
+                    if (AppHelper.Encryption.PasswordMatch(user.Password, password))
                     {
                         AppHelper.auth.username = username;
+                        AppHelper.auth.isOwner = (username == "kristine");
                         Inventory inventory = new Inventory();
                         inventory.Show();
                         this.Hide();

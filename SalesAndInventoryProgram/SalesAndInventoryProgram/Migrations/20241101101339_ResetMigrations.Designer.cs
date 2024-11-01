@@ -10,8 +10,8 @@ using SalesAndInventoryProgram.Data;
 namespace SalesAndInventoryProgram.Migrations
 {
     [DbContext(typeof(ShopContext))]
-    [Migration("20241029104654_UniqueUsername")]
-    partial class UniqueUsername
+    [Migration("20241101101339_ResetMigrations")]
+    partial class ResetMigrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -81,6 +81,9 @@ namespace SalesAndInventoryProgram.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("longtext");
 
+                    b.Property<string>("Status")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Username")
                         .HasColumnType("varchar(255)");
 
@@ -97,7 +100,8 @@ namespace SalesAndInventoryProgram.Migrations
                             Id = 1,
                             FirstName = "Kristine",
                             LastName = "Shop",
-                            Password = "wasdwasd",
+                            Password = "$2a$13$o3J2XzqwBE3MwOFp8EAXEOrS1iU4AwrSQl92Rnr5A6v5bUBoIDY72",
+                            Status = "Active",
                             Username = "kristine"
                         });
                 });

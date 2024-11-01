@@ -12,9 +12,15 @@ namespace SalesAndInventoryProgram
 {
     public partial class UpdateQuantity : Form
     {
+
         public UpdateQuantity()
         {
             InitializeComponent();
+            if (AppHelper.SelectedProduct != null)
+            {
+                lblprodName.Text = AppHelper.SelectedProduct.ItemName;
+                lblcurrentQuantity.Text = AppHelper.SelectedProduct.Quantity.ToString();
+            }
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -31,7 +37,28 @@ namespace SalesAndInventoryProgram
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            try
+            {
+                var addedQuantity = Convert.ToInt16(newQuantity.Value);
 
+                var updatedProduct = AppHelper.SelectedProduct;
+                var computedQuantity = updatedProduct.Quantity + addedQuantity;
+
+                if (computedQuantity < 0)
+                    throw new Exception("Could not process request as the quantity of this prodouct would reach a negative number");
+
+                updatedProduct.Quantity = computedQuantity;
+
+                AppHelper.db.SaveChanges();
+
+                MessageBox.Show("Quantity has been updated");
+                this.Dispose();
+                new Inventory().Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

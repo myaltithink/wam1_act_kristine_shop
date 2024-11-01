@@ -479,3 +479,5 @@ C:\Users\ASUS\source\repos\wam1_act_kristine_shop\SalesAndInventoryProgram\Sales
 C:\Users\ASUS\source\repos\wam1_act_kristine_shop\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net8.0-windows\SalesAndInventoryProgram.genruntimeconfig.cache
 C:\Users\ASUS\source\repos\wam1_act_kristine_shop\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net8.0-windows\ref\SalesAndInventoryProgram.dll
 C:\Users\ASUS\source\repos\wam1_act_kristine_shop\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net8.0-windows\SalesAndInventoryProgram.UpdatePassword.resources
+F:\Programming Projects\wam1_act_kristine_shop\SalesAndInventoryProgram\SalesAndInventoryProgram\obj\Debug\net8.0-windows\SalesAndInventoryProgram.UpdatePassword.resources
+F:\Programming Projects\wam1_act_kristine_shop\SalesAndInventoryProgram\SalesAndInventoryProgram\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll

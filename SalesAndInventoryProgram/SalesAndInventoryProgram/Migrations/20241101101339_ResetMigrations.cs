@@ -6,7 +6,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace SalesAndInventoryProgram.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class ResetMigrations : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -39,8 +39,9 @@ namespace SalesAndInventoryProgram.Migrations
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
                     FirstName = table.Column<string>(type: "longtext", nullable: true),
                     LastName = table.Column<string>(type: "longtext", nullable: true),
-                    Username = table.Column<string>(type: "longtext", nullable: true),
-                    Password = table.Column<string>(type: "longtext", nullable: true)
+                    Username = table.Column<string>(type: "varchar(255)", nullable: true),
+                    Password = table.Column<string>(type: "longtext", nullable: true),
+                    Status = table.Column<string>(type: "longtext", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -72,13 +73,19 @@ namespace SalesAndInventoryProgram.Migrations
 
             migrationBuilder.InsertData(
                 table: "Users",
-                columns: new[] { "Id", "FirstName", "LastName", "Password", "Username" },
-                values: new object[] { 1, "Kristine", "Shop", "wasdwasd", "kristine" });
+                columns: new[] { "Id", "FirstName", "LastName", "Password", "Status", "Username" },
+                values: new object[] { 1, "Kristine", "Shop", "$2a$13$o3J2XzqwBE3MwOFp8EAXEOrS1iU4AwrSQl92Rnr5A6v5bUBoIDY72", "Active", "kristine" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Sales_ProductId",
                 table: "Sales",
                 column: "ProductId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Users_Username",
+                table: "Users",
+                column: "Username",
+                unique: true);
         }
 
         /// <inheritdoc />

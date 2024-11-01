@@ -15,7 +15,6 @@ namespace SalesAndInventoryProgram
     {
 
         private List<EmployeeDisplay> users = null;
-        private List<EmployeeDisplay> display = null;
 
         public Employees()
         {
@@ -30,12 +29,12 @@ namespace SalesAndInventoryProgram
                 .ToList();
 
             users = employees;
-            display = employees;
             PopulateTable(employees);
         }
 
         private void PopulateTable(List<EmployeeDisplay> employees)
         {
+            employeeList.Rows.Clear();
             foreach (var employee in employees)
             {
                 if (employee.Username == "kristine") continue;
@@ -47,32 +46,33 @@ namespace SalesAndInventoryProgram
         {
             AddEmployee addEmployee = new AddEmployee();
             addEmployee.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void btnInventory_Click(object sender, EventArgs e)
         {
             Inventory inventory = new Inventory();
             inventory.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void btnSignOut_Click(object sender, EventArgs e)
         {
             Login form1 = new Login();
             form1.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void btnSales_Click(object sender, EventArgs e)
         {
             Sales sales = new Sales();
             sales.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void Employees_FormClosed(object sender, FormClosedEventArgs e)
         {
+            AppHelper.CloseUpdatePassForm();
             Application.Exit();
         }
 
@@ -88,7 +88,6 @@ namespace SalesAndInventoryProgram
                     {
                         selectedEmployee.Status = AppHelper.DisableStatus;
                         AppHelper.db.SaveChanges();
-                        employeeList.Rows.Clear();
                         InitializeList();
                     }
                     catch (Exception ex)
@@ -114,8 +113,8 @@ namespace SalesAndInventoryProgram
                 {
                     user.Status = AppHelper.ActiveStatus;
                     AppHelper.db.SaveChanges();
-                    employeeList.Rows.Clear();
                     InitializeList();
+                    MessageBox.Show($"Account for {user.Username} has been enabled");
                 }
             }
             catch (Exception ex)
@@ -147,6 +146,25 @@ namespace SalesAndInventoryProgram
         {
             UpdatePassword updatePassword = new UpdatePassword();
             updatePassword.Show();
+            AppHelper.UpdatePassForm = updatePassword;
+        }
+
+        private void tbsearch_TextChanged(object sender, EventArgs e)
+        {
+            var value = tbsearch.Text.ToLower();
+            var newDisplay = new List<EmployeeDisplay>();
+            foreach (var employee in users)
+            {
+                if(employee.Username.ToLower().Contains(value) || 
+                    employee.FirstName.ToLower().Contains(value) ||
+                    employee.LastName.ToLower().Contains(value) ||
+                    employee.Status.ToLower().Contains(value) ||
+                    employee.Id.ToString().Contains(value))
+                {
+                    newDisplay.Add(employee);
+                }
+            }
+            PopulateTable(newDisplay);
         }
     }
 

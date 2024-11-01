@@ -15,34 +15,39 @@ namespace SalesAndInventoryProgram
         public Sales()
         {
             InitializeComponent();
+
+            if(!AppHelper.auth.isOwner)
+            {
+                btnEmployees.Hide();
+            }
         }
 
         private void btnInventory_Click(object sender, EventArgs e)
         {
             Inventory inventory = new Inventory();
             inventory.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void btnCreateSale_Click(object sender, EventArgs e)
         {
             CreateSale createSale = new CreateSale();
             createSale.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void btnSignOut_Click(object sender, EventArgs e)
         {
             Login form1 = new Login();
             form1.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void btnEmployees_Click(object sender, EventArgs e)
         {
             Employees employees = new Employees();
             employees.Show();
-            this.Hide();
+            this.Dispose();
         }
 
         private void btnSales_Click(object sender, EventArgs e)
@@ -52,6 +57,7 @@ namespace SalesAndInventoryProgram
 
         private void Sales_FormClosed(object sender, FormClosedEventArgs e)
         {
+            AppHelper.CloseUpdatePassForm();
             Application.Exit();
         }
 
@@ -59,6 +65,7 @@ namespace SalesAndInventoryProgram
         {
             UpdatePassword updatePassword = new UpdatePassword();
             updatePassword.Show();
+            AppHelper.UpdatePassForm = updatePassword;
 
         }
     }

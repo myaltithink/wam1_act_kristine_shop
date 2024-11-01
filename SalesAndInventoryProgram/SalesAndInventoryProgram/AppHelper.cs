@@ -1,5 +1,7 @@
-﻿using SalesAndInventoryProgram.Auth;
+﻿using SalesAndInventoryProgram;
+using SalesAndInventoryProgram.Auth;
 using SalesAndInventoryProgram.Data;
+using SalesAndInventoryProgram.Data.Models;
 using System.Text.RegularExpressions;
 
 internal static class AppHelper
@@ -15,9 +17,23 @@ internal static class AppHelper
 
     public static string DisableStatus = "Disabled";
 
+    public static UpdatePassword UpdatePassForm = null;
+
+    public static Encryption Encryption = new();
+
+    public static Product SelectedProduct = null;
+
     public static bool IsEmpty(string value)
     {
         return EmptyRegex.IsMatch(value);
     }
 
+
+    public static void CloseUpdatePassForm()
+    {
+        if(UpdatePassForm != null)
+        {
+            UpdatePassForm.Close();
+        }
+    }
 }

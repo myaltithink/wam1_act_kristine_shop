@@ -15,6 +15,11 @@ namespace SalesAndInventoryProgram
         public UpdatePrice()
         {
             InitializeComponent();
+            if (AppHelper.SelectedProduct != null)
+            {
+                lblprodName.Text = AppHelper.SelectedProduct.ItemName;
+                lblcurrentPrice.Text = AppHelper.SelectedProduct.Price.ToString();
+            }
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -27,6 +32,27 @@ namespace SalesAndInventoryProgram
         private void UpdatePrice_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var newPrice = Convert.ToDouble(lblNewPrice.Value);
+                if (newPrice <= 0)
+                    throw new Exception("Price cannot be a 0 or lower");
+
+                var updateProduct = AppHelper.SelectedProduct;
+                updateProduct.Price = newPrice;
+                AppHelper.db.SaveChanges();
+                MessageBox.Show("Price has been updated\n\nNote: This does not affect previous sales of this product");
+                this.Dispose();
+                new Inventory().Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

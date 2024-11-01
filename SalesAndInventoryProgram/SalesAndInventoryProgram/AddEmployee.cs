@@ -53,7 +53,7 @@ namespace SalesAndInventoryProgram
                     FirstName = tbFirstname.Text,
                     LastName = tbLastname.Text,
                     Username = tbUsername.Text,
-                    Password = tbPass.Text
+                    Password = AppHelper.Encryption.EncryptPassword(tbPass.Text)
                 };
 
                 AppHelper.db.Users.Add(employee);

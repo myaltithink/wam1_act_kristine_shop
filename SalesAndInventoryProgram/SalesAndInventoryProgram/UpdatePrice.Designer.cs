@@ -34,7 +34,7 @@ namespace SalesAndInventoryProgram
             btnSave = new System.Windows.Forms.Button();
             btnCancel = new System.Windows.Forms.Button();
             groupBox3 = new System.Windows.Forms.GroupBox();
-            tbNewPrice = new System.Windows.Forms.TextBox();
+            lblNewPrice = new System.Windows.Forms.NumericUpDown();
             groupBox2 = new System.Windows.Forms.GroupBox();
             lblcurrentPrice = new System.Windows.Forms.TextBox();
             panel2 = new System.Windows.Forms.Panel();
@@ -45,6 +45,7 @@ namespace SalesAndInventoryProgram
             panel1.SuspendLayout();
             panel5.SuspendLayout();
             groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)lblNewPrice).BeginInit();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -89,6 +90,7 @@ namespace SalesAndInventoryProgram
             btnSave.TabIndex = 28;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = false;
+            btnSave.Click += btnSave_Click;
             // 
             // btnCancel
             // 
@@ -106,7 +108,7 @@ namespace SalesAndInventoryProgram
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(tbNewPrice);
+            groupBox3.Controls.Add(lblNewPrice);
             groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             groupBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             groupBox3.ForeColor = System.Drawing.Color.White;
@@ -117,14 +119,14 @@ namespace SalesAndInventoryProgram
             groupBox3.TabStop = false;
             groupBox3.Text = "New Price";
             // 
-            // tbNewPrice
+            // lblNewPrice
             // 
-            tbNewPrice.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            tbNewPrice.Location = new System.Drawing.Point(24, 32);
-            tbNewPrice.Name = "tbNewPrice";
-            tbNewPrice.Size = new System.Drawing.Size(369, 30);
-            tbNewPrice.TabIndex = 0;
-            tbNewPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            lblNewPrice.DecimalPlaces = 2;
+            lblNewPrice.Location = new System.Drawing.Point(24, 33);
+            lblNewPrice.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
+            lblNewPrice.Name = "lblNewPrice";
+            lblNewPrice.Size = new System.Drawing.Size(369, 27);
+            lblNewPrice.TabIndex = 1;
             // 
             // groupBox2
             // 
@@ -141,9 +143,11 @@ namespace SalesAndInventoryProgram
             // 
             // lblcurrentPrice
             // 
+            lblcurrentPrice.Enabled = false;
             lblcurrentPrice.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             lblcurrentPrice.Location = new System.Drawing.Point(24, 33);
             lblcurrentPrice.Name = "lblcurrentPrice";
+            lblcurrentPrice.ReadOnly = true;
             lblcurrentPrice.Size = new System.Drawing.Size(369, 30);
             lblcurrentPrice.TabIndex = 0;
             lblcurrentPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -182,9 +186,11 @@ namespace SalesAndInventoryProgram
             // 
             // lblprodName
             // 
+            lblprodName.Enabled = false;
             lblprodName.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             lblprodName.Location = new System.Drawing.Point(24, 33);
             lblprodName.Name = "lblprodName";
+            lblprodName.ReadOnly = true;
             lblprodName.Size = new System.Drawing.Size(369, 30);
             lblprodName.TabIndex = 0;
             lblprodName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -214,7 +220,7 @@ namespace SalesAndInventoryProgram
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)lblNewPrice).EndInit();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
@@ -232,11 +238,11 @@ namespace SalesAndInventoryProgram
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox tbNewPrice;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox lblcurrentPrice;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.NumericUpDown lblNewPrice;
     }
 }

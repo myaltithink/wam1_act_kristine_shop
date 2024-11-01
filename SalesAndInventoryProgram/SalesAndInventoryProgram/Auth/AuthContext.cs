@@ -11,5 +11,7 @@ namespace SalesAndInventoryProgram.Auth
 
         public string username { get; set; }
 
+        public bool isOwner { get; set; } = false;
+
     }
 }

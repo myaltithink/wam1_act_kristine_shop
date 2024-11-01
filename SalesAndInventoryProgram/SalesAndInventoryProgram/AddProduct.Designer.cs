@@ -29,21 +29,23 @@ namespace SalesAndInventoryProgram
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panel1 = new System.Windows.Forms.Panel();
             panel5 = new System.Windows.Forms.Panel();
             btnSave = new System.Windows.Forms.Button();
             btnCancel = new System.Windows.Forms.Button();
             groupBox4 = new System.Windows.Forms.GroupBox();
-            tbQuantity = new System.Windows.Forms.TextBox();
             groupBox3 = new System.Windows.Forms.GroupBox();
-            tbPrice = new System.Windows.Forms.TextBox();
             groupBox2 = new System.Windows.Forms.GroupBox();
-            dropdownCategory = new System.Windows.Forms.DomainUpDown();
+            tbCategory = new System.Windows.Forms.ComboBox();
             panel2 = new System.Windows.Forms.Panel();
             label3 = new System.Windows.Forms.Label();
             groupBox1 = new System.Windows.Forms.GroupBox();
             tbItemName = new System.Windows.Forms.TextBox();
             pictureBox1 = new System.Windows.Forms.PictureBox();
+            tbPrice = new System.Windows.Forms.NumericUpDown();
+            tbQuantity = new System.Windows.Forms.NumericUpDown();
+            contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(components);
             panel1.SuspendLayout();
             panel5.SuspendLayout();
             groupBox4.SuspendLayout();
@@ -51,16 +53,17 @@ namespace SalesAndInventoryProgram
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)tbPrice).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)tbQuantity).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = System.Drawing.Color.White;
             panel1.Controls.Add(panel5);
-            panel1.Location = new System.Drawing.Point(-7, -65);
-            panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            panel1.Location = new System.Drawing.Point(-6, -49);
             panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(1038, 1081);
+            panel1.Size = new System.Drawing.Size(908, 811);
             panel1.TabIndex = 8;
             // 
             // panel5
@@ -77,10 +80,9 @@ namespace SalesAndInventoryProgram
             panel5.Controls.Add(label3);
             panel5.Controls.Add(groupBox1);
             panel5.Controls.Add(pictureBox1);
-            panel5.Location = new System.Drawing.Point(3, 60);
-            panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            panel5.Location = new System.Drawing.Point(3, 45);
             panel5.Name = "panel5";
-            panel5.Size = new System.Drawing.Size(1017, 909);
+            panel5.Size = new System.Drawing.Size(890, 682);
             panel5.TabIndex = 21;
             // 
             // btnSave
@@ -89,13 +91,13 @@ namespace SalesAndInventoryProgram
             btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             btnSave.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             btnSave.ForeColor = System.Drawing.Color.White;
-            btnSave.Location = new System.Drawing.Point(413, 733);
-            btnSave.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnSave.Location = new System.Drawing.Point(361, 550);
             btnSave.Name = "btnSave";
-            btnSave.Size = new System.Drawing.Size(304, 88);
+            btnSave.Size = new System.Drawing.Size(266, 66);
             btnSave.TabIndex = 32;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = false;
+            btnSave.Click += btnSave_Click;
             // 
             // btnCancel
             // 
@@ -103,10 +105,9 @@ namespace SalesAndInventoryProgram
             btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             btnCancel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             btnCancel.ForeColor = System.Drawing.Color.White;
-            btnCancel.Location = new System.Drawing.Point(73, 733);
-            btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnCancel.Location = new System.Drawing.Point(64, 550);
             btnCancel.Name = "btnCancel";
-            btnCancel.Size = new System.Drawing.Size(304, 88);
+            btnCancel.Size = new System.Drawing.Size(266, 66);
             btnCancel.TabIndex = 31;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = false;
@@ -118,24 +119,12 @@ namespace SalesAndInventoryProgram
             groupBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             groupBox4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             groupBox4.ForeColor = System.Drawing.Color.White;
-            groupBox4.Location = new System.Drawing.Point(413, 567);
-            groupBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            groupBox4.Location = new System.Drawing.Point(361, 425);
             groupBox4.Name = "groupBox4";
-            groupBox4.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            groupBox4.Size = new System.Drawing.Size(304, 111);
+            groupBox4.Size = new System.Drawing.Size(266, 83);
             groupBox4.TabIndex = 30;
             groupBox4.TabStop = false;
             groupBox4.Text = "Quantity";
-            // 
-            // tbQuantity
-            // 
-            tbQuantity.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            tbQuantity.Location = new System.Drawing.Point(27, 39);
-            tbQuantity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            tbQuantity.Name = "tbQuantity";
-            tbQuantity.Size = new System.Drawing.Size(250, 36);
-            tbQuantity.TabIndex = 30;
-            tbQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // groupBox3
             // 
@@ -143,57 +132,41 @@ namespace SalesAndInventoryProgram
             groupBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             groupBox3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             groupBox3.ForeColor = System.Drawing.Color.White;
-            groupBox3.Location = new System.Drawing.Point(73, 567);
-            groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            groupBox3.Location = new System.Drawing.Point(64, 425);
             groupBox3.Name = "groupBox3";
-            groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            groupBox3.Size = new System.Drawing.Size(304, 111);
+            groupBox3.Size = new System.Drawing.Size(266, 83);
             groupBox3.TabIndex = 29;
             groupBox3.TabStop = false;
             groupBox3.Text = "Price";
             // 
-            // tbPrice
-            // 
-            tbPrice.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            tbPrice.Location = new System.Drawing.Point(27, 39);
-            tbPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            tbPrice.Name = "tbPrice";
-            tbPrice.Size = new System.Drawing.Size(250, 36);
-            tbPrice.TabIndex = 30;
-            tbPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(dropdownCategory);
+            groupBox2.Controls.Add(tbCategory);
             groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             groupBox2.ForeColor = System.Drawing.Color.White;
-            groupBox2.Location = new System.Drawing.Point(73, 415);
-            groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            groupBox2.Location = new System.Drawing.Point(64, 311);
             groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            groupBox2.Size = new System.Drawing.Size(645, 111);
+            groupBox2.Size = new System.Drawing.Size(564, 83);
             groupBox2.TabIndex = 25;
             groupBox2.TabStop = false;
             groupBox2.Text = "Category";
             // 
-            // dropdownCategory
+            // tbCategory
             // 
-            dropdownCategory.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            dropdownCategory.Location = new System.Drawing.Point(27, 43);
-            dropdownCategory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            dropdownCategory.Name = "dropdownCategory";
-            dropdownCategory.Size = new System.Drawing.Size(597, 36);
-            dropdownCategory.TabIndex = 0;
-            dropdownCategory.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            tbCategory.FormattingEnabled = true;
+            tbCategory.Items.AddRange(new object[] { "General", "Electronics" });
+            tbCategory.Location = new System.Drawing.Point(24, 32);
+            tbCategory.Name = "tbCategory";
+            tbCategory.Size = new System.Drawing.Size(523, 29);
+            tbCategory.TabIndex = 33;
             // 
             // panel2
             // 
             panel2.BackColor = System.Drawing.Color.FromArgb(110, 172, 254);
-            panel2.Location = new System.Drawing.Point(-27, 193);
-            panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            panel2.Location = new System.Drawing.Point(-24, 145);
             panel2.Name = "panel2";
-            panel2.Size = new System.Drawing.Size(848, 4);
+            panel2.Size = new System.Drawing.Size(742, 3);
             panel2.TabIndex = 23;
             // 
             // label3
@@ -201,9 +174,9 @@ namespace SalesAndInventoryProgram
             label3.AutoSize = true;
             label3.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             label3.ForeColor = System.Drawing.Color.White;
-            label3.Location = new System.Drawing.Point(278, 132);
+            label3.Location = new System.Drawing.Point(243, 99);
             label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(224, 37);
+            label3.Size = new System.Drawing.Size(179, 28);
             label3.TabIndex = 22;
             label3.Text = "ADD PRODUCT";
             // 
@@ -214,11 +187,9 @@ namespace SalesAndInventoryProgram
             groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             groupBox1.ForeColor = System.Drawing.Color.White;
-            groupBox1.Location = new System.Drawing.Point(73, 263);
-            groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            groupBox1.Location = new System.Drawing.Point(64, 197);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            groupBox1.Size = new System.Drawing.Size(645, 111);
+            groupBox1.Size = new System.Drawing.Size(564, 83);
             groupBox1.TabIndex = 12;
             groupBox1.TabStop = false;
             groupBox1.Text = "Item Name";
@@ -226,10 +197,9 @@ namespace SalesAndInventoryProgram
             // tbItemName
             // 
             tbItemName.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
-            tbItemName.Location = new System.Drawing.Point(27, 44);
-            tbItemName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            tbItemName.Location = new System.Drawing.Point(24, 33);
             tbItemName.Name = "tbItemName";
-            tbItemName.Size = new System.Drawing.Size(597, 36);
+            tbItemName.Size = new System.Drawing.Size(523, 30);
             tbItemName.TabIndex = 0;
             tbItemName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -237,21 +207,41 @@ namespace SalesAndInventoryProgram
             // 
             pictureBox1.BackgroundImage = Properties.Resources.klogodark;
             pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            pictureBox1.Location = new System.Drawing.Point(24, 23);
-            pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            pictureBox1.Location = new System.Drawing.Point(21, 17);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new System.Drawing.Size(205, 105);
+            pictureBox1.Size = new System.Drawing.Size(179, 79);
             pictureBox1.TabIndex = 15;
             pictureBox1.TabStop = false;
             // 
+            // tbPrice
+            // 
+            tbPrice.DecimalPlaces = 2;
+            tbPrice.Location = new System.Drawing.Point(16, 33);
+            tbPrice.Maximum = new decimal(new int[] { 1000000, 0, 0, 0 });
+            tbPrice.Name = "tbPrice";
+            tbPrice.Size = new System.Drawing.Size(234, 27);
+            tbPrice.TabIndex = 31;
+            // 
+            // tbQuantity
+            // 
+            tbQuantity.Location = new System.Drawing.Point(16, 33);
+            tbQuantity.Maximum = new decimal(new int[] { 10000, 0, 0, 0 });
+            tbQuantity.Name = "tbQuantity";
+            tbQuantity.Size = new System.Drawing.Size(234, 27);
+            tbQuantity.TabIndex = 31;
+            // 
+            // contextMenuStrip1
+            // 
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new System.Drawing.Size(181, 26);
+            // 
             // AddProduct
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(781, 904);
+            ClientSize = new System.Drawing.Size(683, 678);
             Controls.Add(panel1);
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             Name = "AddProduct";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "AddProduct";
@@ -260,13 +250,13 @@ namespace SalesAndInventoryProgram
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             groupBox4.ResumeLayout(false);
-            groupBox4.PerformLayout();
             groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)tbPrice).EndInit();
+            ((System.ComponentModel.ISupportInitialize)tbQuantity).EndInit();
             ResumeLayout(false);
         }
 
@@ -281,11 +271,12 @@ namespace SalesAndInventoryProgram
         private System.Windows.Forms.TextBox tbItemName;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox tbPrice;
-        private System.Windows.Forms.DomainUpDown dropdownCategory;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox tbQuantity;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.ComboBox tbCategory;
+        private System.Windows.Forms.NumericUpDown tbQuantity;
+        private System.Windows.Forms.NumericUpDown tbPrice;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
