@@ -122,7 +122,7 @@ namespace SalesAndInventoryProgram
             var newDisplay = new List<Sale>();
             foreach (var item in soldItems)
             {
-                if(item.Id.ToString().Equals(value) || item.Product.ItemName.ToLower().Equals(value))
+                if(item.Id.ToString().Contains(value) || item.Product.ItemName.ToLower().Contains(value))
                 {
                     newDisplay.Add(item);
                     continue;
