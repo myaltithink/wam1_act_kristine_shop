@@ -19,7 +19,9 @@ namespace SalesAndInventoryProgram.Data.Models
 
         public int Quantity { get; set; }
 
-        public double Cost { get; set; }
+        public double ItemPrice { get; set; }
+
+        public double Total { get; set; }
 
         public Product Product { get; set; }
 

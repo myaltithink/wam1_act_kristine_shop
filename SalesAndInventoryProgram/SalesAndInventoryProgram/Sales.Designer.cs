@@ -31,11 +31,12 @@ namespace SalesAndInventoryProgram
         {
             pictureBox1 = new System.Windows.Forms.PictureBox();
             saleList = new System.Windows.Forms.DataGridView();
+            Sale_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ProductID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ItemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             tbsearch = new System.Windows.Forms.TextBox();
             groupBox1 = new System.Windows.Forms.GroupBox();
             panel3 = new System.Windows.Forms.Panel();
@@ -78,7 +79,7 @@ namespace SalesAndInventoryProgram
             // 
             saleList.BackgroundColor = System.Drawing.Color.White;
             saleList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            saleList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { ProductID, ItemName, Category, Price, Quantity });
+            saleList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { Sale_ID, ProductID, ItemName, Quantity, Price, Total });
             saleList.Dock = System.Windows.Forms.DockStyle.Fill;
             saleList.Location = new System.Drawing.Point(0, 0);
             saleList.MultiSelect = false;
@@ -90,12 +91,19 @@ namespace SalesAndInventoryProgram
             saleList.Size = new System.Drawing.Size(805, 280);
             saleList.TabIndex = 13;
             // 
+            // Sale_ID
+            // 
+            Sale_ID.HeaderText = "Sale ID";
+            Sale_ID.Name = "Sale_ID";
+            Sale_ID.ReadOnly = true;
+            // 
             // ProductID
             // 
             ProductID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             ProductID.HeaderText = "Product ID";
             ProductID.MinimumWidth = 6;
             ProductID.Name = "ProductID";
+            ProductID.ReadOnly = true;
             // 
             // ItemName
             // 
@@ -103,20 +111,7 @@ namespace SalesAndInventoryProgram
             ItemName.HeaderText = "Item Name";
             ItemName.MinimumWidth = 6;
             ItemName.Name = "ItemName";
-            // 
-            // Category
-            // 
-            Category.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            Category.HeaderText = "Category";
-            Category.MinimumWidth = 6;
-            Category.Name = "Category";
-            // 
-            // Price
-            // 
-            Price.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            Price.HeaderText = "Price";
-            Price.MinimumWidth = 6;
-            Price.Name = "Price";
+            ItemName.ReadOnly = true;
             // 
             // Quantity
             // 
@@ -124,6 +119,21 @@ namespace SalesAndInventoryProgram
             Quantity.HeaderText = "Quantity";
             Quantity.MinimumWidth = 6;
             Quantity.Name = "Quantity";
+            Quantity.ReadOnly = true;
+            // 
+            // Price
+            // 
+            Price.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            Price.HeaderText = "Price";
+            Price.MinimumWidth = 6;
+            Price.Name = "Price";
+            Price.ReadOnly = true;
+            // 
+            // Total
+            // 
+            Total.HeaderText = "Total";
+            Total.Name = "Total";
+            Total.ReadOnly = true;
             // 
             // tbsearch
             // 
@@ -133,6 +143,7 @@ namespace SalesAndInventoryProgram
             tbsearch.Size = new System.Drawing.Size(756, 30);
             tbsearch.TabIndex = 0;
             tbsearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            tbsearch.TextChanged += tbsearch_TextChanged;
             // 
             // groupBox1
             // 
@@ -274,6 +285,7 @@ namespace SalesAndInventoryProgram
             btnDeleteSale.TabIndex = 16;
             btnDeleteSale.Text = "Delete Sale";
             btnDeleteSale.UseVisualStyleBackColor = false;
+            btnDeleteSale.Click += btnDeleteSale_Click;
             // 
             // panel5
             // 
@@ -333,7 +345,7 @@ namespace SalesAndInventoryProgram
             TotalSales.ForeColor = System.Drawing.Color.White;
             TotalSales.Location = new System.Drawing.Point(3, 26);
             TotalSales.Name = "TotalSales";
-            TotalSales.Padding = new System.Windows.Forms.Padding(9, 9, 9, 9);
+            TotalSales.Padding = new System.Windows.Forms.Padding(9);
             TotalSales.Size = new System.Drawing.Size(75, 44);
             TotalSales.TabIndex = 24;
             TotalSales.Text = "0.00";
@@ -384,11 +396,12 @@ namespace SalesAndInventoryProgram
         private System.Windows.Forms.Label TotalSales;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnUpdatePassword;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Sale_ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ProductID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ItemName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Category;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
         private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
-        private System.Windows.Forms.Button btnUpdatePassword;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Total;
     }
 }

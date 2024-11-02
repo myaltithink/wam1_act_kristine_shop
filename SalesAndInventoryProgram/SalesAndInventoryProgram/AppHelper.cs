@@ -2,6 +2,7 @@
 using SalesAndInventoryProgram.Auth;
 using SalesAndInventoryProgram.Data;
 using SalesAndInventoryProgram.Data.Models;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 internal static class AppHelper
@@ -22,6 +23,8 @@ internal static class AppHelper
     public static Encryption Encryption = new();
 
     public static Product SelectedProduct = null;
+
+    public static List<SaleItem> SalesItem = new();
 
     public static bool IsEmpty(string value)
     {

@@ -6,7 +6,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace SalesAndInventoryProgram.Migrations
 {
     /// <inheritdoc />
-    public partial class ResetMigrations : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -57,7 +57,8 @@ namespace SalesAndInventoryProgram.Migrations
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
                     ProductId = table.Column<int>(type: "int", nullable: false),
                     Quantity = table.Column<int>(type: "int", nullable: false),
-                    Cost = table.Column<double>(type: "double", nullable: false)
+                    ItemPrice = table.Column<double>(type: "double", nullable: false),
+                    Total = table.Column<double>(type: "double", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -74,7 +75,7 @@ namespace SalesAndInventoryProgram.Migrations
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "FirstName", "LastName", "Password", "Status", "Username" },
-                values: new object[] { 1, "Kristine", "Shop", "$2a$13$o3J2XzqwBE3MwOFp8EAXEOrS1iU4AwrSQl92Rnr5A6v5bUBoIDY72", "Active", "kristine" });
+                values: new object[] { 1, "Kristine", "Shop", "$2a$13$h2ieV4oOnr.dxYre9xoaHOy9IaXuQnLodFUD4G8p66eFHBnFGEyEy", "Active", "kristine" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Sales_ProductId",

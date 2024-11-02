@@ -10,8 +10,8 @@ using SalesAndInventoryProgram.Data;
 namespace SalesAndInventoryProgram.Migrations
 {
     [DbContext(typeof(ShopContext))]
-    [Migration("20241101101339_ResetMigrations")]
-    partial class ResetMigrations
+    [Migration("20241102105233_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -50,7 +50,7 @@ namespace SalesAndInventoryProgram.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<double>("Cost")
+                    b.Property<double>("ItemPrice")
                         .HasColumnType("double");
 
                     b.Property<int>("ProductId")
@@ -58,6 +58,9 @@ namespace SalesAndInventoryProgram.Migrations
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
+
+                    b.Property<double>("Total")
+                        .HasColumnType("double");
 
                     b.HasKey("Id");
 
@@ -100,7 +103,7 @@ namespace SalesAndInventoryProgram.Migrations
                             Id = 1,
                             FirstName = "Kristine",
                             LastName = "Shop",
-                            Password = "$2a$13$o3J2XzqwBE3MwOFp8EAXEOrS1iU4AwrSQl92Rnr5A6v5bUBoIDY72",
+                            Password = "$2a$13$h2ieV4oOnr.dxYre9xoaHOy9IaXuQnLodFUD4G8p66eFHBnFGEyEy",
                             Status = "Active",
                             Username = "kristine"
                         });
